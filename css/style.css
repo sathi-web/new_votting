@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul,ol{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+h1,h2,h3,h4,h5,h6,p{
+    line-height: 0.8;
+}
+.form{
+    margin: 50px;
+    display: flex;
+    flex-direction:column;
+    width: 400px;
+    margin-left: 500px;
+    -webkit-box-shadow: 0px 0px 9px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 9px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 9px 0px rgba(0,0,0,0.75);
+    color:#fff;
+    padding: 40px ;
+}
+.namefild,.email,.fname,.add,.contact,.pass,.con_pass{
+    height: 30px;
+    width: 280px;
+    padding: 10px;
+    border: 2px solid #000;
+    border-radius: 6px;
+    text-transform: capitalize;
+    text-align: center;
+    color: #000;
+    margin-top: 20px;
+    
+    
+}
+
+.btn{
+    padding: 5px 10px;
+    width: 80px;
+    border-radius: 7px;
+    color: #fff;
+    margin-top: 20px;
+    background-color: blueviolet;
+    cursor: pointer;
+   
+    
+}
+.btn:hover{
+    background-color: green;
+    color: red;
+    
+}
+.nameerr,.emailerr,.fnameerr,.adderr,.contacterr,.passerr,.con_passerr {
+    color: red;
+    text-transform: capitalize;
+    margin-top: 15px;
+    
+}
+
+.fname:hover,.add:hover,.pass:hover,.con_pass:hover,.contact:hover,.email:hover,.namefild:hover{
+    color: #fff;
+    font-weight: 800;
+    font-size: 18px;
+    background-color: blueviolet;
+    
+}
+textarea{
+    border: 2px solid #000;
+    margin-top: 20px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    text-transform: capitalize;
+    
+}
+p{
+    margin-top: 15px;
+    color: #000;
+    font-size: 20px;
+    padding-left: 20px;
+}
+
+
